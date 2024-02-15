@@ -63,11 +63,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 └───────⭓
 
 ┌──⭓ *Ai Menu*
-│⎚ ${usedPrefix} you
-│⎚ ${usedPrefix}bingimg
-│⎚ ${usedPrefix} bard
-│⎚ ${usedPrefix} create
-│⎚ ${usedPrefix} semsi
+│⎚ ${usedPrefix}you
+│⎚ ${usedPrefix}bimg
+│⎚ ${usedPrefix}bard
+│⎚ ${usedPrefix}create
+│⎚ ${usedPrefix}semsi
 └───────⭓
 
 ┌──⭓ *Owner Menu*
