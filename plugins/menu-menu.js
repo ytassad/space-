@@ -64,7 +64,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 ┌──⭓ *Ai Menu*
 │⎚ ${usedPrefix} you
-│⎚ ${usedPrefix} bing
+│⎚ ${usedPrefix}bingimg
 │⎚ ${usedPrefix} bard
 │⎚ ${usedPrefix} create
 │⎚ ${usedPrefix} semsi
