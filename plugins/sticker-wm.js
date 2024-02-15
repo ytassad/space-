@@ -8,7 +8,7 @@ const handler = async (m, {conn, text}) => {
     const mime = m.quoted.mimetype || '';
     if (!/webp/.test(mime)) throw '*Yassmina bot*';
     const img = await m.quoted.download();
-    if (!img) throw '*Yassmina*';
+    if (!img) throw '*mnl*';
     stiker = await addExif(img, packname || global.packname, author || global.author);
   } catch (e) {
     console.error(e);
