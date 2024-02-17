@@ -5,7 +5,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     m.reply("تابع صاحب البوت في حساباته تشجيعا له ...\ninstagram.com/i_arther_ven")
 
     try {
-const apikey = ["zquPZdIbFp"];
+const apikey = ["ENgJMFQY6U"];
 const randomIndex = Math.floor(Math.random() * apikey.length);
 const selectedKey = apikey[randomIndex];
         let response = await fetch(`https://api.maelyn.my.id/api/bingimage?prompt=${text}&apikey=` + apikey.getRandom())
