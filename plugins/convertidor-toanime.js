@@ -7,7 +7,7 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
   const data = await q.download?.();
   const image = await uploadImage(data);
   try {
-    const anime = `https://api.lolhuman.xyz/api/imagetoanime?apikey=${lolkeysapi}&img=${image}`;
+    const anime = `https://api.maelyn.my.id/imagetoanime?apikey=${ENgJMFQY6U}&img=${image}`;
     await conn.sendFile(m.chat, anime, 'error.jpg', null, m);
   } catch (i) {
     try {
