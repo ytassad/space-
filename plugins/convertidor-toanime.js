@@ -15,10 +15,10 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
       await conn.sendFile(m.chat, anime2, 'error.jpg', null, m);
     } catch (a) {
       try {
-        const anime3 = `https://api.caliph.biz.id/api/animeai?img=${image}&apikey=caliphkey`;
+        const`https://api.caliph.biz.id/api/animeai?img=${image}&apikey=caliphkey`;
         await conn.sendFile(m.chat, anime3, 'error.jpg', null, m);
       } catch (e) {
-        throw '*[❗] 𝙴𝚁𝚁𝙾𝚁, 𝚅𝙴𝚁𝙸𝙵𝙸𝚀𝚄𝙴 𝚀𝚄𝙴 𝙴𝙽 𝙻𝙰 𝙸𝙼𝙰𝙶𝙴𝙽 𝚂𝙴𝙰 𝚅𝙸𝚂𝙸𝙱𝙻𝙴 𝙴𝙻 𝚁𝙾𝚂𝚃𝚁𝙾 𝙳𝙴 𝚄𝙽𝙰 𝙿𝙴𝚁𝚂𝙾𝙽𝙰*';
+        throw '*صورتك قبيحة جدا لايمكن ان تصبح انمي*';
       }
     }
   }
