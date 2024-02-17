@@ -2,7 +2,7 @@ import uploadImage from '../lib/uploadImage.js';
 const handler = async (m, {conn, text, args, usedPrefix, command}) => {
   const q = m.quoted ? m.quoted : m;
   const mime = (q.msg || q).mimetype || q.mediaType || '';
-  if (!/image/g.test(mime)) throw '*[❗] 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰 𝙾 𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙴 𝙰 𝚄𝙽𝙰 𝙸𝙼𝙰𝙶𝙴𝙽*';
+  if (!/image/g.test(mime)) throw '*قم بالرد على الصورة*';
   m.reply('*صورتك قبيحة جدا لايمكن تحويلها لأنمي*');
   const data = await q.download?.();
   const image = await uploadImage(data);
