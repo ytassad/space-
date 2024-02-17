@@ -18,7 +18,7 @@ const selectedKey = apikey[randomIndex];
                 }, i * 5000)
             }
         } else {
-            m.reply("لا يمكن العثور على الصورة التي طلبتها")
+            m.reply("*انتهت صلاحية رمز api*")
         }
     } catch (e) {
         console.error(e)
