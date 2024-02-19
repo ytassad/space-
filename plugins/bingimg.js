@@ -5,10 +5,10 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     m.reply("تابع صاحب البوت في حساباته تشجيعا له ...\ninstagram.com/i_arther_ven")
 
     try {
-const apikey = ["ENgJMFQY6U"];
+const apikey = ["prabowo"];
 const randomIndex = Math.floor(Math.random() * apikey.length);
 const selectedKey = apikey[randomIndex];
-        let response = await fetch(`https://api.maelyn.my.id/api/bingimage?prompt=${text}&apikey=` + apikey.getRandom())
+        let response = await fetch(`https://api.yanzbotz.my.id/api/ai/bing?prompt=${text}&apikey=` + apikey.getRandom())
         let result = await response.json()
 
         if (result.status === "Success" && result.result.length > 0) {
