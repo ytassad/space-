@@ -1,7 +1,9 @@
 const handler = async (m, {conn, usedPrefix}) => {
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   const document = doc[Math.floor(Math.random() * doc.length)];
-  const text = `*رقم أدمين البوتwa.me/212658796481*`.trim();
+  const text = `*رقم أدمين البوت
+
+wa.me/212658796481*`.trim();
   const buttonMessage= {
     'document': {url: `https://github.com/ytassad/space-`},
     'mimetype': `application/${document}`,
@@ -15,7 +17,7 @@ const handler = async (m, {conn, usedPrefix}) => {
         'mediaUrl': 'https://github.com/ytassad/space-',
         'mediaType': 2,
         'previewType': 'pdf',
-        'title': 'Yassmina word git',
+        'title': 'kitty word git',
         'body': wm,
         'thumbnail': imagen1,
         'sourceUrl': ''}},
