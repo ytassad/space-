@@ -23,6 +23,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     
 ┌${taguser}ⓘ
 ─────────────⭓
+_____⎚_Achhada_
 ┣ ඬ⃟🔊 _Quien es tu sempai botsito 7w7_
 ┣ ඬ⃟🔊 _Te diagnostico con gay_
 ┣ ඬ⃟🔊 _No digas eso papu_
