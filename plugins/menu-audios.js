@@ -21,7 +21,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `
     
-┌${taguser}*ⓘ
+┌${taguser}ⓘ
 ─────────────⭓
 ┣ ඬ⃟🔊 _Quien es tu sempai botsito 7w7_
 ┣ ඬ⃟🔊 _Te diagnostico con gay_
@@ -46,7 +46,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣ ඬ⃟🔊 _Oh me vengo_
 ┣ ඬ⃟🔊 _tio que rico_
 ┣ ඬ⃟🔊 _Viernes_
-┣ ඬ⃟🔊 _Baneado_
+┣ ඬ⃟🔊 _cry_
 ┣ ඬ⃟🔊 _Sexo_
 ┣ ඬ⃟🔊 _Hola_
 ┣ ඬ⃟🔊 _Un pato_
@@ -62,9 +62,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣ ඬ⃟🔊 _Epico_
 ┣ ඬ⃟🔊 _Shitpost_
 ┣ ඬ⃟🔊 _Rawr_
-┣ ඬ⃟🔊 _sɪʀ ᴛ9ᴀᴡᴅ_
-┣ ඬ⃟🔊 _:c_
-┣ ඬ⃟🔊 _a_
+┣ ඬ⃟🔊 _cute_
 ┗━━━━━━━━━━━━━━━━┛`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'cry.mp3', null, m, true, { type: 'audioMessage', ptt: true})
