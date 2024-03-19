@@ -43,8 +43,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣ ඬ⃟🔊 _Buenos tardes_
 ┣ ඬ⃟🔊 _Buenos noches_
 ┣ ඬ⃟🔊 _Audio hentai_
-┣ ඬ⃟🔊 _Chica lgante_
-┣ ඬ⃟🔊 _Feliz navidad_
+┣ ඬ⃟🔊 _Achhada_
+┣ ඬ⃟🔊 _cry_
 ┣ ඬ⃟🔊 _Vete a la vrg_
 ┣ ඬ⃟🔊 _Pasa pack Bot_
 ┣ ඬ⃟🔊 _Atencion grupo_
